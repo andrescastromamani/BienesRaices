@@ -1,3 +1,31 @@
-h1{
-    color: blue;
+/*Globales*/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;/*entrar en contenido*/
+}
+/*header*/
+.site-header.inicio{
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;/*no distorcinar la imagen*/
+    height: 100vh;/*para cubrir el tamaño de la pantalla*/
+    min-height: 600px;/*tamaño minimo*/
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.navegacion a:hover{
+    color: teal;
+}
+.navegacion a:last-of-type{
+    margin: 0;
 }
